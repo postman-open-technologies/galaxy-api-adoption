@@ -115,8 +115,7 @@ app.get("/", (req, res) => {
     });
   else
     res.send(
-      "<h1>API Adoption</h1><p>Oh, hi! There's not much to see here - click the button on the right to view the code instead:</p>" +
-        '<script src="https://button.glitch.me/button.js" data-style="glitch"></script><div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>'
+      "<h1>API Adoption</h1><p>Oh, hi! There's not much to see here - click <a href='https://github.com/postman-open-technologies/galaxy-api-adoption'>here</a> to view the code instead."
     );
 });
 
