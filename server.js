@@ -179,7 +179,7 @@ app.get("/begin", (req, res) => {
           note:
             "This API provides a few demo endpoints that return random data generated using the faker library " +
             "(which we can also use in Postman as you will see later). _You are welcome to continue playing around with all of the requests " +
-            "after the session–and feel free to remix the API on Glitch too: galaxy-api-adoption.glitch.me._ 😄"
+            "after the session–and feel free to clone and contribute to the API on Github https://github.com/postman-open-technologies/galaxy-api-adoption._ 😄"
         },
         {
           note:
@@ -198,8 +198,8 @@ app.get("/begin", (req, res) => {
       next: [
         {
           step:
-            "Let's take a quick look at the collection documentation Postman generates by default. Click the little paper icon at the top " +
-            "right of this request to open the docs. Click **View complete collection documentation** at the bottom and take a look before " +
+            "Let's take a quick look at the collection documentation Postman generates by default. Click the ellipsis icon beside the name of this collection " +
+            "and select **View documentation** from the list of options that appear and take a look before " +
             "returning here to the `Begin learning` request."
         },
         {
@@ -257,13 +257,13 @@ app.get("/record", (req, res) => {
             note:
               "Aside from documentation, one of the best ways to help your users orient themselves with your API is to use meaningful " +
               "request names. Although this API returns junk data, let's pretend it doesn't. At the top of the request tab, hover over the " +
-              "name `Get item` and click the little pencil icon to edit it. Give the request a more meaningful name of your choice, for " +
+              "name `Get item` and click on the name to edit it. Give the request a more meaningful name of your choice, for " +
               "example `Get customer` (Postman will autosave)."
           },
           {
             note:
               "#### Add descriptions\n\nWith the documentation for the request open on the right, you'll see that you can add a description for the request. " +
-              "Click the text-area with 'Make things easier...' etc in it and enter a request description. You can use markdown, for example:",
+              "Click the text-area, and enter a request description. You can use markdown, for example:",
             js_code: [
               "Retrieve a single customer.",
               "",
@@ -315,8 +315,8 @@ app.get("/record", (req, res) => {
           {
             step:
               "You can use collections to share information about your APIs in a variety of ways as we'll see in this session. To see a " +
-              "preview of what your docs will look like if someone views them on the web outside Postman, **View complete collection " +
-              "documentation**, click **Publish** &gt; **Preview documentation** then navigate back here to `Get customer` using the browser back button."
+              "preview of what your docs will look like if someone views them on the web outside Postman, Open the collection documentation and click on the **View complete documentation** " +
+              "link at the bottom, click **Publish** at the top right, &gt; **Preview documentation** then navigate back here to `Get customer` using the browser back button."
           },
           {
             step: "Open the next request `POST` `Add item` and hit **Send**."
@@ -350,8 +350,7 @@ app.get("/record", (req, res) => {
           },
           {
             note:
-              "In the docs view next to the request, click **View complete collection documentation** to see how the example " +
-              "renders, then return here to `Get item`."
+              "View the complete collection documentation to see how the example renders, then return here to `Get item`."
           },
           {
             note:
