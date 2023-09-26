@@ -279,7 +279,7 @@ app.get("/record", (req, res) => {
           {
             note:
               "#### Dynamic examples\n\nTo make the response a little more interesting, we can use dynamic faker variables to generate random values " +
-              "whenever the example is generated. Back in the `Get customer` example, replace the value of the `data` &gt; `phrase` property with " +
+              "whenever the example is generated. Back in the `Get customer` example, replace the value of the `phrase` property in the `data` object with " +
               '`{{$randomCatchPhrase}}` so that it looks like this: `\"phrase\": "{{$randomCatchPhrase}}",`'
           },
           {
